@@ -1,6 +1,6 @@
 import { createAppContainer } from 'react-navigation';
-import {createDrawerNavigator} from 'react-navigation-drawer'
-import {createStackNavigator} from 'react-navigation-stack'
+import { createDrawerNavigator } from 'react-navigation-drawer'
+import { createStackNavigator } from 'react-navigation-stack'
 /* import React from 'react'
 import {createStackNavigator} from '@react-navigation/stack'
 import {NavigationContainer} from '@react-navigation/native'
@@ -61,7 +61,7 @@ const MainNavigator = createStackNavigator(
       }
     })
   }
-); 
+);
 
 /* const Drawer = createDrawerNavigator();
 
@@ -99,7 +99,7 @@ const DrawerStack = createDrawerNavigator(
     </NavigationContainer>
   )
 } */
- 
+
 export default AppContainer = createAppContainer(DrawerStack);
 
 console.disableYellowBox = true;
