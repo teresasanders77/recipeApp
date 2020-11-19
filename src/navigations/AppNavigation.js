@@ -30,7 +30,7 @@ const MainNavigator = createStackNavigator(
   {
     initialRouteName: 'Home',
     // headerMode: 'float',
-    defaulfNavigationOptions: ({ navigation }) => ({
+    defaultNavigationOptions: ({ navigation }) => ({
       headerTitleStyle: {
         fontWeight: 'bold',
         textAlign: 'center',
